@@ -3,41 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis gustos personales</title>
-  <style>
-    *{
-      margin: 0px;
-      padding: 0px;
-      box-sizing: border-box;
-    }
-    body{
-      background: #212121;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: sans-serif;
-    }
-    div{
-      width: 500px;
-      padding: 25px;
-      background: #16404D;
-      color: white;
-      border-radius: 10px;
-    }
-    div h1{
-      margin-bottom: 15px;
-    }
-  </style>
+    <title>Mis Gustos Personales</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #f4f4f4; /* Fondo */
+            color: #333; /* Color de texto */
+            font-family: "Arial", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        main {
+            width: 600px;
+            padding: 30px;
+            background: #ffffff; /* Fondo el contenido */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            color: #003366; 
+            margin-bottom: 20px;
+        }
+        figure {
+            text-align: center;
+            margin: 20px 0;
+        }
+        figcaption {
+            font-size: 14px;
+            color: #666;
+        }
+        ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        blockquote {
+            font-style: italic;
+            text-align: center;
+            color: #555;
+            border-left: 4px solid #003366;
+            padding-left: 15px;
+            margin: 20px 0;
+        }
+        hr {
+            margin: 20px 0;
+            border: none;
+            border-top: 1px solid #ccc;
+        }
+        dl {
+            margin: 10px 0;
+        }
+        dt {
+            font-weight: bold;
+            color: #003366;
+        }
+        dd {
+            margin-left: 15px;
+            color: #666;
+        }
+        pre {
+            background: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: "Courier New", monospace;
+        }
+    </style>
 </head>
 <body>
-  <div>
-    <h1>Algunos de mis gustos son:</h1>
-    <ul>
-      <li>Me gusta correr</li>
-      <li>Escuchar musica</li>
-      <li>Hacer ejercicio</li>
-      <li>Ir a jugar futbol</li>
-    </ul>
-  </div>
+
+    <main>
+        <h1>Algunos de mis gustos</h1>
+
+        <figure>
+          <img src="https://images.pexels.com/photos/1564470/pexels-photo-1564470.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+               alt="Imagen representativa" 
+               width="300" height="auto">
+          <figcaption>Imagen representativa de mis gustos</figcaption>
+      </figure>
+
+        <ul>
+            <li>Me gusta correr</li>
+            <li>Escuchar música</li>
+            <li>Hacer ejercicio</li>
+            <li>Ir a jugar fútbol</li>
+        </ul>
+
+        <blockquote>
+            "El deporte es la mejor medicina para el alma y el cuerpo."
+        </blockquote>
+
+        <hr>
+
+        <dl>
+            <h2>Glosario.</h2>
+            <dt>Ejercicio</dt>
+            <dd>Actividad física que mejora la salud y el bienestar.</dd>
+            <dt>Música</dt>
+            <dd>Arte de combinar sonidos con ritmo y armonía.</dd>
+        </dl>
+
+        <pre>
+Diseñado por:
+Diego Cabrera
+        </pre>
+    </main>
+
 </body>
 </html>
